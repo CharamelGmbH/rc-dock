@@ -271,6 +271,7 @@ export class DockLayout extends DockPortalManager {
     }
     /** @inheritDoc */
     navigateToPanel(fromElement, direction) {
+        return
         if (!direction) {
             if (!fromElement) {
                 fromElement = this._ref.querySelector('.dock-tab-active>.dock-tab-btn');

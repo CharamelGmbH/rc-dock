@@ -324,6 +324,7 @@ export class DockLayout extends DockPortalManager implements DockContext {
 
   /** @inheritDoc */
   navigateToPanel(fromElement?: HTMLElement, direction?: string) {
+    return
     if (!direction) {
       if (!fromElement) {
         fromElement = this._ref.querySelector('.dock-tab-active>.dock-tab-btn');

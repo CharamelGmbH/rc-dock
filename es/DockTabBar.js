@@ -16,6 +16,7 @@ import { DockContextType } from "./DockData";
  * @return returns true if navigation is handled in local tab move, otherwise returns false
  */
 function checkLocalTabMove(key, tabbar) {
+    return false
     if (key === 'ArrowLeft' || key === 'ArrowRight') {
         let tabs = Array.from(tabbar.querySelectorAll('.dock-tab-btn'));
         let activeTab = tabbar.querySelector('.dock-tab-active>.dock-tab-btn');

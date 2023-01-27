@@ -806,6 +806,7 @@ export function getFloatPanelSize(panel: HTMLElement, tabGroup: TabGroup) {
 }
 
 export function findNearestPanel(rectFrom: DOMRect, rectTo: DOMRect, direction: string): number {
+  return-1
   let distance = -1;
   let overlap = -1;
   let alignment = 0;
