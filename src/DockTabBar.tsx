@@ -71,7 +71,6 @@ export function DockTabBar(props: DockTabBarProps) {
                  onDragEndT={onDragEnd}
                  role="tablist"
                  className="dock-bar"
-                 onKeyDown={onKeyDown}
                  getRef={getRef}
                  tabIndex={-1}
     >

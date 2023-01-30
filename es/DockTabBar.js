@@ -56,6 +56,6 @@ export function DockTabBar(props) {
             e.preventDefault();
         }
     };
-    return (React.createElement(DragDropDiv, { onDragStartT: onDragStart, onDragMoveT: onDragMove, onDragEndT: onDragEnd, role: "tablist", className: "dock-bar", onKeyDown: onKeyDown, getRef: getRef, tabIndex: -1 },
+    return (React.createElement(DragDropDiv, { onDragStartT: onDragStart, onDragMoveT: onDragMove, onDragEndT: onDragEnd, role: "tablist", className: "dock-bar", getRef: getRef, tabIndex: -1 },
         React.createElement(TabNavList, Object.assign({}, restProps))));
 }
